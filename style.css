@@ -26,12 +26,14 @@ p{
     letter-spacing: 1px;
 }
 .puma{
-    height: 90px;
+    /* height: 90px; */
     width: 100%;
     background-color: black;
     color: #fff;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
 
 }
 .logo img{
@@ -114,5 +116,35 @@ button i{
 }
 .auto{
     font-size: 13px;
+}
+.mens-sneakers{
+    margin-left: 20px;
+    font-size: 22px;
+    margin-top: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 1.5px;
+    color: #ac1f29;
+}
+.sneakers{
+    margin-top: 15px;
+    height: 500px;
+    width: 100%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+.shoes1{
+  margin-bottom: 30px;
+    /* border-radius: 8px; */
+    height: 330px;
+    width: 23%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* box-shadow: 8px 8px 6px #cccc; */
+}
+img{
+    width: 100%;
+    height: 100%;
 }
 
